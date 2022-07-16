@@ -20,7 +20,7 @@ export default function App() {
         borderRadius: '45px',
       }}>
       <img src={Unity_Technologies_logo} className="App-logo" alt="Unity Logo" />
-        <h1>Recipe Book</h1>
+        <h1>Recipe Book yo</h1>
         <Box
       sx={{
         position: 'absolute',
