@@ -10,27 +10,29 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <Box
-      sx={{
-        position: 'static',
-        display: "flex",
-        width: '75%',
-        height: '300',
-        backgroundColor: '#2D2D2D',
-        borderRadius: '45px',
-      }}>
-      <img src={Unity_Technologies_logo} className="App-logo" alt="Unity Logo" />
-        <h1>Recipe Book</h1>
-        <Box
-      sx={{
-        position: 'absolute',
-        backgroundColor: '#1D1D1D',
-        borderRadius: '45px',
-      }}></Box>
-      <Button>Save</Button>
-      </Box>
-        <Button variant="contained">Hello World</Button>
       </header>
+      <mainContent>
+        <Box
+        sx={{
+          width: '75%',
+          height: '300',
+          backgroundColor: '#2D2D2D',
+          borderRadius: '45px',
+        }}>
+        <img src={Unity_Technologies_logo} className="App-logo" alt="Unity Logo" />
+          <h1>Recipe Book</h1>
+          <Box
+        sx={{
+          position: 'absolute',
+          backgroundColor: '#1D1D1D',
+          borderRadius: '45px',
+        }}></Box>
+        <Button>Save</Button>
+        </Box>
+          <Button variant="contained">Hello World</Button>
+
+
+      </mainContent>
       
     </div>
     
